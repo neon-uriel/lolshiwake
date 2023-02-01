@@ -21,7 +21,7 @@ async def LoLteams(ctx, *names):
 
 @bot.command()
 async def LoLみくじ(ctx):
-    await ctx.send(f'お前のレーン、{team.mikuji()}だよ')
+    await ctx.send(f'お前のレーン、{team.mikuji()}だよ by 国情のONI')
 
 @bot.command()
 async def LoLteams5(ctx, *names):
